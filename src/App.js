@@ -1,24 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';  // Import Routes instead of Switch
+import Navbar from './Navbar';  // Ensure Navbar is correctly imported
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navbar />  {/* Navbar for navigation */}
+      <Routes>  {/* Switch has been replaced by Routes in React Router v6 */}
+        <Route path="/home" element={<h2>Home Page</h2>} />  {/* Use 'element' instead of 'component' */}
+        <Route path="/quiz" element={<h2>Quiz Page</h2>} />  {/* Use 'element' instead of 'component' */}
+        <Route path="/report" element={<h2>Report Page</h2>} />  {/* Use 'element' instead of 'component' */}
+      </Routes>
+    </Router>
   );
 }
 
