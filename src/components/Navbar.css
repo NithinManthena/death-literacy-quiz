@@ -1,0 +1,42 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .navbar-left .logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .highlight {
+    color: #fcc822;
+  }
+  
+  .navbar-center {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding-left: 0;
+    margin: 0;
+  }
+  
+  .navbar-center li a {
+    text-decoration: none;
+    color: #444;
+    font-weight: 500;
+  }
+  
+  .navbar-right .login-button {
+    padding: 8px 16px;
+    border: 1px solid #fcc822;
+    color: #fcc822;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  

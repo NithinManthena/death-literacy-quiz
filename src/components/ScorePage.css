@@ -1,0 +1,99 @@
+/* src/components/ScorePage.css */
+
+.score-container {
+    width: 100%;
+    min-height: 100vh;
+    background: #fffbdc;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .score-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+  }
+  
+  .logo img {
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .eternal {
+    font-weight: 600;
+  }
+  
+  .wisdom {
+    color: #fbc400;
+    font-weight: 600;
+  }
+  
+  .nav-links a {
+    margin: 0 12px;
+    text-decoration: none;
+    color: #aaa;
+    font-weight: 500;
+  }
+  
+  .user {
+    color: #fbc400;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  
+  .score-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+  }
+  
+  .score-content h2 {
+    font-size: 28px;
+    color: #222;
+    margin-bottom: 30px;
+  }
+  
+  .score-circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #ffda2a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 8px 15px rgba(255, 212, 0, 0.3);
+  }
+  
+  .score-text {
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+  }
+  
+  .score-circle h1 {
+    font-size: 60px;
+    margin: 0;
+    color: white;
+  }
+  .nav-link-btn {
+    background: none;
+    border: none;
+    color: #aaa;
+    font-size: 16px;
+    margin: 0 12px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .nav-link-btn:hover {
+    text-decoration: underline;
+  }
+  

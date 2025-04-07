@@ -36,3 +36,89 @@
     transform: rotate(360deg);
   }
 }
+/* App.css */
+
+/* Set a global background color */
+body {
+  background-color: #f0f0f0; /* Light grey background */
+  font-family: Arial, sans-serif; /* Set a default font */
+  margin: 0;
+  padding: 0;
+}
+
+/* Set the container for the pages */
+div {
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 1000px;
+}
+
+/* Style the h2 titles */
+h2 {
+  color: #333;
+}
+
+/* Styling for Navbar */
+nav {
+  background-color: #4CAF50; /* Green background */
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 15px;
+}
+
+nav a:hover {
+  background-color: #45a049;
+  border-radius: 4px;
+}
+
+
+/* App.css */
+
+/* Set a global background color */
+body {
+  background-color: #f0f0f0; /* Light grey background */
+  font-family: Arial, sans-serif; /* Set a default font */
+  margin: 0;
+  padding: 0;
+}
+
+/* Set the container for the pages */
+div {
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 1000px;
+}
+
+/* Style the h2 titles */
+h2 {
+  color: #333;
+}
+
+/* Styling for Navbar */
+nav {
+  background-color: #4CAF50; /* Green background */
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 15px;
+}
+
+nav a:hover {
+  background-color: #45a049;
+  border-radius: 4px;
+}
